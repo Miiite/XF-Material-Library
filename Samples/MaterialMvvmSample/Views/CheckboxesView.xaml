@@ -7,6 +7,12 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <material:MaterialCheckbox Text="My Material Checkbox" />
+
+            <material:MaterialCard>
+                <material:MaterialCircularLoadingView AutoPlay="true"
+                                                      WidthRequest="140"
+                                                      HeightRequest="140" />
+            </material:MaterialCard>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
