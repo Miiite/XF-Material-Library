@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaterialMvvmSample.Views.Issues.Issue_191"
+             xmlns:material1="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <material1:MaterialTextField Margin="15,0,15,0"
+                                         Grid.Row="1"
+                                         ReturnType="Next"
+                                         TintColor="#8FA294"
+                                         Placeholder="Usuario"
+                                         InputType="Text"></material1:MaterialTextField>
+            <material1:MaterialTextField Margin="15,0,15,0"
+                                         Grid.Row="2"
+                                         ReturnType="Next"
+                                         TintColor="#8FA294"
+                                         x:Name="txt_Pass1"
+                                         Placeholder="Contraseña actual"
+                                         InputType="Password"></material1:MaterialTextField>
+            <material1:MaterialTextField Margin="15,0,15,0"
+                                         Grid.Row="3"
+                                         ReturnType="Next"
+                                         TintColor="#8FA294"
+                                         x:Name="txt_Pass2"
+                                         Placeholder="Nueva contraseña"
+                                         InputType="Password"></material1:MaterialTextField>
+            <material1:MaterialTextField Margin="15,0,15,0"
+                                         Grid.Row="4"
+                                         ReturnType="Default"
+                                         TintColor="#8FA294"
+                                         x:Name="txt_Pass3"
+                                         Placeholder="Repetir contraseña"
+                                         InputType="Password"></material1:MaterialTextField>
+            <material1:MaterialButton Margin="15,0,15,0"
+                                      Grid.Row="5"
+                                      x:Name="btnGuardar1"
+                                      BackgroundColor="#8FA294"
+                                      TextColor="white"
+                                      Text="GUARDAR"></material1:MaterialButton>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="28"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <material1:MaterialIcon Grid.Row="0"
+                                        VerticalOptions="Start"
+                                        Grid.Column="0"
+                                        Margin="0,15,0,0"
+                                        WidthRequest="28"
+                                        HeightRequest="28"></material1:MaterialIcon>
+                <material1:MaterialTextField Grid.Row="0"
+                                             Grid.Column="1"
+                                             x:Name="txt_User"
+                                             ReturnType="Next"
+                                             AlwaysShowUnderline="True"
+                                             TintColor="#195634"
+                                             PlaceholderColor="Gray"
+                                             UnderlineColor="LightGray"
+                                             BackgroundColor="Transparent"
+                                             Placeholder="Usuario..."
+                                             WidthRequest="150"
+                                             Margin="0,0,0,40"
+                                             InputType="Plain"></material1:MaterialTextField>
+            </Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="28"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <material1:MaterialIcon Grid.Row="0"
+                                        VerticalOptions="Start"
+                                        Grid.Column="0"
+                                        Margin="0,15,0,0"
+                                        WidthRequest="28"
+                                        HeightRequest="28"></material1:MaterialIcon>
+                <material1:MaterialTextField Grid.Row="0"
+                                             Grid.Column="1"
+                                             x:Name="txt_Pass"
+                                             ReturnType="Default"
+                                             TintColor="#195634"
+                                             PlaceholderColor="Gray"
+                                             UnderlineColor="LightGray"
+                                             AlwaysShowUnderline="True"
+                                             BackgroundColor="Transparent"
+                                             Placeholder="Contraseña..."
+                                             WidthRequest="150"
+                                             Margin="0,0,0,40"
+                                             InputType="Password"></material1:MaterialTextField>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

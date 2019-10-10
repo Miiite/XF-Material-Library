@@ -5,6 +5,7 @@ using MaterialMvvmSample.Utilities;
 using MaterialMvvmSample.Utilities.Dialogs;
 using MaterialMvvmSample.ViewModels;
 using MaterialMvvmSample.Views;
+using MaterialMvvmSample.Views.Issues;
 using Xamarin.Forms;
 using XF.Material.Forms.UI;
 
@@ -39,7 +40,9 @@ namespace MaterialMvvmSample.Core
             containerBuilder.RegisterType<LandingView>().Named<Page>(ViewNames.LandingView).As<LandingView>().InstancePerDependency();
             containerBuilder.RegisterType<MaterialDialogsView>().Named<Page>(ViewNames.MaterialDialogsView).As<MaterialDialogsView>().InstancePerDependency();
             containerBuilder.RegisterType<CheckboxesView>().Named<Page>(ViewNames.CheckboxesView).As<CheckboxesView>().InstancePerDependency();
+            containerBuilder.RegisterType<MaterialCircularView>().Named<Page>(ViewNames.MaterialCircularView).As<MaterialCircularView>().InstancePerDependency();
 
+            containerBuilder.RegisterType<Issue_191>().Named<Page>(nameof(Issue_191)).As<Issue_191>().InstancePerDependency();
 
 
             containerBuilder.RegisterType<MainViewModel>().InstancePerDependency();

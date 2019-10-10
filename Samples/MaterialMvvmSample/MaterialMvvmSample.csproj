@@ -21,7 +21,10 @@
   </ItemGroup>
   
   <ItemGroup>
-     <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
+     <Compile Update="**\*.xaml.cs" DependentUpon="Issue_191.xaml" />
   </ItemGroup>
   
+  <ItemGroup>
+    <Folder Include="Views\Issues\" />
+  </ItemGroup>
 </Project>
