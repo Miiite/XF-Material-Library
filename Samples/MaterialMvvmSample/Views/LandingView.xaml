@@ -4,7 +4,7 @@
                        x:Class="MaterialMvvmSample.Views.LandingView"
                        Title="Access all samples"
                        xmlns:local="clr-namespace:MaterialMvvmSample.Views"
-                       xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material">
+                       xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material.Forms">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <material:MaterialButton Text="Go To MaterialChip sample"

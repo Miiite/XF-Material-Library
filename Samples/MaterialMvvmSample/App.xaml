@@ -2,8 +2,9 @@
 <Application x:Class="MaterialMvvmSample.App"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:mtrl="clr-namespace:XF.Material.Forms.Resources;assembly=XF.Material"
-             xmlns:mtrltypo="clr-namespace:XF.Material.Forms.Resources.Typography;assembly=XF.Material">
+             xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material.Forms"
+             xmlns:mtrl="clr-namespace:XF.Material.Forms.Resources;assembly=XF.Material.Forms"
+             xmlns:mtrltypo="clr-namespace:XF.Material.Forms.Resources.Typography;assembly=XF.Material.Forms">
     <Application.Resources>
 
         <OnPlatform x:Key="FontFamily.Exo2Regular"
@@ -31,6 +32,8 @@
                     x:TypeArguments="x:String"
                     Android="Fonts/Roboto-Medium.ttf#Roboto-Medium"
                     iOS="Roboto-Medium" />
+
+
 
         <mtrltypo:MaterialFontConfiguration x:Key="Material.Font"
                                             Body1="{StaticResource FontFamily.RobotoRegular}"

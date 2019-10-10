@@ -14,14 +14,14 @@ namespace MaterialMvvmSample.Views
             InitializeComponent();
         }
 
-        public void IncreaseChipFontSize_Clicked(object sender, EventArgs e)
-        {
-            this.TheChip.FontSize = this.TheChip.FontSize + 1;
-        }
+        //public void IncreaseChipFontSize_Clicked(object sender, EventArgs e)
+        //{
+        //    this.TheChip.FontSize = this.TheChip.FontSize + 1;
+        //}
 
-        public void DecreaseChipFontSize_Clicked(object sender, EventArgs e)
-        {
-            this.TheChip.FontSize = this.TheChip.FontSize - 1;
-        }
+        //public void DecreaseChipFontSize_Clicked(object sender, EventArgs e)
+        //{
+        //    this.TheChip.FontSize = this.TheChip.FontSize - 1;
+        //}
     }
 }

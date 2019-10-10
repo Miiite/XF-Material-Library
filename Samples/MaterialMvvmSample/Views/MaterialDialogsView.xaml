@@ -2,7 +2,7 @@
 <local:BaseMainView xmlns="http://xamarin.com/schemas/2014/forms"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                     xmlns:local="clr-namespace:MaterialMvvmSample.Views"
-                    xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+                    xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material.Forms"
                     x:Class="MaterialMvvmSample.Views.MaterialDialogsView">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
