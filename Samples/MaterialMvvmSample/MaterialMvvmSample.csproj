@@ -12,7 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.9.4" />
     <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="5.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.947036" />
     <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
   </ItemGroup>
 
@@ -21,7 +21,7 @@
   </ItemGroup>
   
   <ItemGroup>
-     <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
+     <Compile Update="**\*.xaml.cs" DependentUpon="PerformanceCollectionView.xaml" />
   </ItemGroup>
   
 </Project>

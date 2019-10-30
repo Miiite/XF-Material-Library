@@ -6,7 +6,6 @@ using MaterialMvvmSample.Utilities.Dialogs;
 using MaterialMvvmSample.ViewModels;
 using MaterialMvvmSample.Views;
 using Xamarin.Forms;
-using XF.Material.Forms.UI;
 
 namespace MaterialMvvmSample.Core
 {
@@ -41,6 +40,7 @@ namespace MaterialMvvmSample.Core
             containerBuilder.RegisterType<MaterialCircularView>().Named<Page>(ViewNames.MaterialCircularView).As<MaterialCircularView>().InstancePerDependency();
             containerBuilder.RegisterType<CheckboxesView>().Named<Page>(ViewNames.CheckboxesView).As<CheckboxesView>().InstancePerDependency();
             containerBuilder.RegisterType<MaterialMenuButtonView>().Named<Page>(ViewNames.MaterialMenuButtonView).As<MaterialMenuButtonView>().InstancePerDependency();
+            containerBuilder.RegisterType<PerformanceCollectionView>().Named<Page>(ViewNames.PerformanceCollectionView).As<PerformanceCollectionView>().InstancePerDependency();
 
             containerBuilder.RegisterType<MainViewModel>().InstancePerDependency();
             containerBuilder.RegisterType<SecondViewModel>().InstancePerDependency();
